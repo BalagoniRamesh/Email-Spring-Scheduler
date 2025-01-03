@@ -1,0 +1,171 @@
+/* Container styling for the form */
+.groupQueue-container {
+    margin: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    /* Removed box-shadow to meet your first requirement */
+}
+
+/* Flex container for the inputs and buttons in a single row */
+.input-buttons-container {
+    display: flex;
+    gap: 10px; /* Add a 10px gap between input fields and buttons */
+    align-items: center; /* Vertically align input fields and buttons */
+}
+
+/* Custom styling for the text fields */
+.MuiTextField-root {
+    width: 263px !important; /* Set width of the input fields */
+    height: 36px !important; /* Set height of the input fields to 36px */
+}
+
+/* Adjust the height of the input element */
+.MuiInputBase-root {
+    height: 36px !important; /* Set the height of the input box itself to 36px */
+    font-size: 1rem;         /* Adjust font size if needed */
+    padding: 6px 12px;       /* Apply padding to input elements */
+    /* border: 1px solid grey; Set initial border color to #333333 */
+}
+
+/* Change the border color on focus */
+.MuiInputBase-root.Mui-focused {
+    border-color: #254A9E !important; /* Change the border color on focus */
+}
+
+/* Styling for the label */
+.custom-label {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #000203; /* Blackish color for the label */
+    background-color: #fff; /* White background for the label */
+    margin-bottom: 2px; /* Space between the label and input field */
+    height: 20px; /* Set the height of the label to 20px */
+    display: flex;
+    align-items: center; /* Vertically center the label text */
+}
+
+/* Button container style */
+.button-container {
+    display: flex;
+    gap: 10px; /* Add a 10px gap between buttons */
+}
+
+/* Apply margin-bottom to move the buttons up */
+.custom-button {
+    background-color: #254A9E !important;  /* Set background color for both buttons */
+    color: #fff !important;               /* Set text color to white */
+    padding: 8px 16px;                    /* Adjust button padding */
+    margin-bottom: -5px; /* Apply -5px margin-bottom to shift buttons upwards */
+}
+
+/* Custom width and height for Search and Clear buttons */
+.search-button {
+    width: 107px !important;  /* Set width for Search button */
+    height: 41px !important;  /* Set height for Search button */
+}
+
+.clear-button {
+    width: 93px !important;   /* Set width for Clear button */
+    height: 41px !important;  /* Set height for Clear button */
+}
+
+/* Hover effect for the buttons */
+.custom-button:hover {
+    background-color: #1c3c7c !important;  /* Darken the button on hover */
+}
+
+/* Table */
+.table-header {
+    background-color: #1D4078;
+    color: #FFFFFF;
+    font-weight: bold;
+    /* height: 25px; */
+    line-height: 5px;
+    font-weight: bold;    
+    border-right: 1px solid #254a9e !important; 
+    border-left: 1px solid #254a9e !important;
+    border:none;
+}
+
+/* Table row styling */
+.table-container .MuiTableRow-root:last-child td,
+.table-container .MuiTableRow-root:last-child th {
+    border: 0;
+    /* Remove border for the last row */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* CSS for the "Per page" label */
+.per-page-label {
+    width: 72px;
+    height: 36px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-right: 8px;
+    /* Add some space between label and input field */
+}
+
+/* "Rows per page" header styling */
+.per-page-header {
+    background-color: #254a9e !important;
+    color: #fff;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Align elements to the right end */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 11px 15px !important;
+}
+
+.MuiTextField-root-custom-per-page-input {
+    width: 100px !important;
+    height: 36px !important;
+    margin: 0px 0px 0px 8px;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 2, 3);
+    box-shadow: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(60, 70, 70);
+    border-image: initial;
+
+}
+.table-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-top: 16px; Matches marginTop: 2 in MUI */
+    height: 49px;
+}
+
+.table {
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    border: none; /* Remove default table border */
+}
+
+.table tbody > tr > td {
+    border: 1px solid rgb(74, 84, 84);  /* Custom border */
+    padding: 8px;
+    text-align: left;
+}
+

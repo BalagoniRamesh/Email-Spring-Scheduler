@@ -1,0 +1,91 @@
+.table-header {
+    background-color: #1D4078;
+    color: #FFFFFF;
+    font-weight: bold;
+    /* height: 25px; */
+    line-height: 5px;
+    font-weight: bold;    
+    border-right: 1px solid #254a9e !important; 
+    border-left: 1px solid #254a9e !important;
+    border:none;
+}
+
+/* Table row styling */
+.table-container .MuiTableRow-root:last-child td,
+.table-container .MuiTableRow-root:last-child th {
+    border: 0;
+    /* Remove border for the last row */
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* CSS for the "Per page" label */
+.per-page-label {
+    width: 72px;
+    height: 36px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    padding-top: 10px;
+    margin-right: 8px;
+    /* Add some space between label and input field */
+}
+
+/* "Rows per page" header styling */
+.per-page-header {
+    background-color: #254a9e !important;
+    color: #fff;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    /* Align elements to the right end */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 11px 15px !important;
+}
+
+.MuiTextField-root-custom-per-page-input {
+    width: 100px !important;
+    height: 36px !important;
+    margin: 0px 0px 0px 8px;
+    padding: 6px 12px;
+    background: #FFFFFF;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 2, 3);
+    box-shadow: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(60, 70, 70);
+    border-image: initial;
+
+}
+.table-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* margin-top: 16px; Matches marginTop: 2 in MUI */
+    height: 49px;
+}
+
+.table {
+    border-collapse: collapse;
+    color: rgb(255, 255, 255);
+    border: none; /* Remove default table border */
+}
+
+.table tbody > tr > td {
+    border: 1px solid rgb(74, 84, 84);  /* Custom border */
+    padding: 8px;
+    text-align: left;
+}
+

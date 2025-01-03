@@ -1,0 +1,102 @@
+/* search.css */
+.search-container {
+    padding: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #fff;
+    border-radius: 7px;
+}
+
+.search-fields-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    color: inherit;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.field label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.field input,
+.field select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #fff;
+    box-shadow: none;
+    /* Removed background shadow */
+}
+
+.field input:focus,
+.field select:focus {
+    outline: none;
+    border-color: #254a9e;
+    /* Add a focus border color */
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.search-button,
+.clear-button {
+    background-color: #254a9e;
+    color: #f1f3f8;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: none;
+    /* Removed background shadow */
+}
+
+.search-button:hover,
+.clear-button:hover {
+    background-color: #1c3c7c;
+}
+
+/* dataExport.css */
+
+.export-button-container {
+    margin-top: 10px;
+    /* Add space between the previous row and this row */
+}
+
+.data-export-button {
+    background-color: #254a9e;
+    color: #f1f3f8;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    /* Space between icon and text */
+    font-size: 14px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    height: 41px;
+    width: 145;
+}

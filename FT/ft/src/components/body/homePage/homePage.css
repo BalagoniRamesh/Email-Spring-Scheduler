@@ -1,0 +1,54 @@
+.home-page-header {
+    background-color: #254a9e !important;
+    color: #fff;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.home-page-title {
+    color: #fff;    
+    padding-left: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.admin-button {
+    background-color: #254a9e;
+    color:  #f1f3f8;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-right: 15px;
+    font-size: 10px;
+    line-height: 1.1;
+   
+}
+.admin-button-div {
+    display: flex;
+    justify-content: flex-end;
+}
+.home-page-main{
+    /* width: 100%;  */
+    border: 1px solid #254a9e;
+    padding-bottom: 10px;
+    border-radius: 7px;
+    margin: 1px;    
+}
+
+.initiate-new-review-div {
+    display: flex;
+    justify-content: flex-start; 
+    padding: 10px;
+}
+
+.refresh_icon{
+    padding: 10px;
+}
+.case_create_ft{
+    padding: 10px;
+}
